@@ -1,0 +1,65 @@
+{"English":
+	{"Scene02":
+		{"2.1":"Once you and your caregiver walk into the hospital, you will go to the check in desk.",
+		"2.2":"Your caregiver will talk with the person at the desk and then you will get a bracelet to wear with your name on it.",
+		"2.3":"Great job! You found the hospital bracelet. You have earned a star! Now you can draw your name on the bracelet!",
+		"2.4":"Draw your name!",
+		"2.5":"You're all checked in! Time to go to the waiting room."},
+	"Scene04":
+		{"4.1":"After you get your bracelet at the check-in desk, you will sit and wait for your name to be called.",
+		"4.2":"You can bring your own toys from home to play with. There will even be games for you to play here!",
+		"4.3":"Solve the puzzle!",
+		"4.4":"Your name has been called! Time to meet your nurse and go to your hospital room."},
+	"Scene06":
+		{"6.1":"When your name is called, you will leave the waiting room to go to pre-op.",
+		"6.2":"Here you will meet your nurse. They will take you upstairs to your hospital room. Press the elevator button to go up!"},
+	"Scene07":
+		{"7.1":"You will go to a space that has a bed for you, but before we go your nurse will give you your hospital pajamas and weigh you!",
+		"7.2":"Great job! You found the hospital gown! You get a star! Now drag the PJs on to the alligator, then place him on the scale!",
+		"7.3":"All done! Time to go to your hospital room!"},
+	"Scene08":
+		{"8.1":"Now, your nurse will take you to your bed. You will stay here until it is time for your surgery.",
+		"8.2":"Your nurse will use special tools to measure your blood pressure, breathing, temperature, and heartbeat. Get a closer look to see how the tools work!",
+        "8.3":"Before you are taken to the surgery room, you will get to meet some of your doctors. They are very excited to meet you too!",
+        "8.4":"Go Gators!"},
+	"Scene09":
+		{"9.0":"Look around the room to learn more about what you see!",
+		"9.11":"Your nurse will take your blood pressure. The blood pressure cuff will give your arm a tight squeeze.",
+		"9.12":"Your blood pressure tells your nurse how your blood is moving through your body.",
+		"9.2":"Great job! You found the blood pressure cuff! You get a star! Now drag the cuff to the patient's arm!",
+		"9.31":"Your nurse will put a sticker or soft clip on your finger or toes that tells us how your heart is beating and how you are breathing.",
+		"9.32":"This is called the pulse-ox. When the light is red, it means it's working!",
+		"9.4":"Great job! You found the pulse ox. You get a star! Now tap it again to put it on to the patient's finger!",
+		"9.5":"Next, your nurse will check your temperature with the thermometer. It may feel a little cold, but it does not hurt.",
+		"9.6":"Great job! You found the thermometer! You get a star! Now swipe the thermometer across the patient's forehead!",
+		"9.7":"Next, your nurse will put stickers on your chest to measure your heartbeat.",
+		"9.8":"Great job! You found the EKG! Place the stickers on the alligator's chest!",
+		"9.9":"Great job! Now you are all ready for surgery!"},
+    "Scene11":
+        {"11.1":"When it is time to go back to the OR, you can bring your stuffed animal, blanket, or other comfort item with you.",
+        "11.2":"Then, you will go for a ride on your bed to the operating room. There will be many doctors waiting to meet you. Open the door to see them!"},
+    "Scene10":
+        {"10.1":"This is what the operating room looks like. The nurses will help you get onto the bed.",
+        "10.2":"It looks like there is a lot of stuff in this room, but not everything will be used for you.",
+        "10.3":"Look! There is the anesthesiologist you met earlier and she wants to show you how sleepy medicine machine works."},
+    "Scene12":
+        {"12.1":"The anesthesiologist uses this machine to make sure that you get the right amount of sleepy medicine.",
+        "12.2":"You will be given a mask for the sleepy medicine. The mask is soft and squishy and fits around your nose and mouth. There are even flavors to choose from!",
+        "12.3":"Great job! You found the sleepy medicine mask. You get a star! Don't forget to pick a fun smell!"},
+    "Scene13":
+        {"13.1":"You can pick fun smells for the sleepy medicine like watermelon, bubblegum, or strawberry. Which one do you want?",
+        "13.2":"When you fall asleep, it will be time for your surgery!",
+        "13.3":"Go Gators"},
+    "Scene14":
+        {"14.1":"When the doctors are finished, they will stop giving you sleepy medicine so your body can wake up.",
+        "14.3":"You will also wake up with an IV in your arm or hand to help you hydrate after your surgery.",
+        "14.2":"Once you wake up your nurse can give you a popsicle or something to drink."},
+    "PopsicleScene":
+        {"pop.1":"Tap to eat the popsicle!",
+        "pop.2":"Go Gators"},
+    "Scene15":
+        {"15.1":"All done! Now it is time to leave with your caregiver!",
+        "15.2":"Go Gators"}
+	},
+"Credits":"Exceptional programming and graphic design: Daniel El Basha, Danielle Miller, Liv Bowman, Kendall Brandt, Rani Mahmoudi, Andrew Sowinski, Erika Grasso, Mohona Ahmed, Chloeynard, Katieann, Josh Swerdlow, Blake McDonald, Laura Lozano, Courtney Wirg, Priya Atodaria, Shane Rambo, Jennifer McCloskey. Faculty Support from: Gaby Hernandez, Stephen Hugo Arce. Adapted from material provided by Amy Wegner and Naomi Martinez in UF Shands Child Life Services."
+}
