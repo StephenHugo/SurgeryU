@@ -1,0 +1,162 @@
+#include_directories(
+#	${CMAKE_CURRENT_LIST_DIR}/src
+#)
+
+set(SPINE_HEADER
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Animation.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/AnimationState.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/AnimationStateData.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Atlas.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/AtlasAttachmentLoader.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Attachment.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/AttachmentLoader.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/AttachmentTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/AttachmentType.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/BlendMode.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Bone.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/BoneData.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/BoundingBoxAttachment.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/ClippingAttachment.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Color.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/ColorTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/ConstraintData.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/ContainerUtil.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/CurveTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Debug.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/DeformTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/dll.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/DrawOrderTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Event.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/EventData.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/EventTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Extension.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/HashMap.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/HasRendererObject.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/IkConstraint.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/IkConstraintData.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/IkConstraintTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Json.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/LinkedMesh.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/MathUtil.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/MeshAttachment.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/MixBlend.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/MixDirection.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/PathAttachment.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/PathConstraint.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/PathConstraintData.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/PathConstraintMixTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/PathConstraintPositionTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/PathConstraintSpacingTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/PointAttachment.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Pool.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/PositionMode.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/RegionAttachment.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/RotateMode.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/RotateTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/RTTI.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/ScaleTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/ShearTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Skeleton.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/SkeletonBinary.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/SkeletonBounds.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/SkeletonClipping.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/SkeletonData.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/SkeletonJson.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Skin.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Slot.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/SlotData.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/SpacingMode.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/spine.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/SpineObject.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/SpineString.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/TextureLoader.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Timeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/TimelineType.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/TransformConstraint.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/TransformConstraintData.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/TransformConstraintTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/TransformMode.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/TranslateTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Triangulator.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/TwoColorTimeline.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Updatable.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Vector.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/VertexAttachment.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/VertexEffect.h
+    ${CMAKE_CURRENT_LIST_DIR}/include/spine/Vertices.h
+    )
+
+set(SPINE_SRC
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Animation.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/AnimationState.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/AnimationStateData.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Atlas.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/AtlasAttachmentLoader.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Attachment.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/AttachmentLoader.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/AttachmentTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Bone.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/BoneData.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/BoundingBoxAttachment.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/ClippingAttachment.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/ColorTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/ConstraintData.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/CurveTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/DeformTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/DrawOrderTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Event.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/EventData.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/EventTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Extension.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/IkConstraint.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/IkConstraintData.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/IkConstraintTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Json.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/LinkedMesh.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/MathUtil.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/MeshAttachment.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/PathAttachment.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/PathConstraint.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/PathConstraintData.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/PathConstraintMixTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/PathConstraintPositionTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/PathConstraintSpacingTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/PointAttachment.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/RegionAttachment.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/RotateTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/RTTI.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/ScaleTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/ShearTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Skeleton.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/SkeletonBinary.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/SkeletonBounds.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/SkeletonClipping.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/SkeletonData.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/SkeletonJson.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Skin.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Slot.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/SlotData.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/SpineObject.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/TextureLoader.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Timeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/TransformConstraint.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/TransformConstraintData.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/TransformConstraintTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/TranslateTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Triangulator.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/TwoColorTimeline.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/Updatable.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/VertexAttachment.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/spine/VertexEffect.cpp
+    )
+
+list(APPEND SPINE_SRC ${SPINE_HEADER})
+
+add_library(spine-static STATIC ${SPINE_SRC})
+
+set_target_properties(spine-static
+    PROPERTIES
+    ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib"
+    LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib"
+)
+target_include_directories(spine-static PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include)
